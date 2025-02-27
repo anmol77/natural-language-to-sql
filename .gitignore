@@ -1,0 +1,15 @@
+# Large model files
+*.safetensors
+*.model
+*.bin
+t5_base_container/
+final_trained_model/model.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
