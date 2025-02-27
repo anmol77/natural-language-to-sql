@@ -1,0 +1,37 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General App styles */
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content card */
+.content-card {
+  margin: auto;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 600px;
+  height: 500px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Wrapper for all content besides tabs */
+.content-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
